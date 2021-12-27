@@ -3,7 +3,6 @@
 ///A truly AI random chosen system. Pedestrian and cars randomly choose a path when there is more than one option 
 ///Alejandro Munilla, Dec 27, 2021
 
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

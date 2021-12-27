@@ -9,8 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: SkyCarBodyGrey
   m_Shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _DETAIL_MUL _EMISSION _LIGHTMAPPING_STATIC_LIGHTMAPS _NORMALMAP
-    _UVPRIM_UV1 _UVSEC_UV1
+  m_ShaderKeywords: _EMISSION _NORMALMAP
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -64,6 +63,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _AlphaTestRef: 0.5
     - _BumpScale: 1
@@ -96,3 +96,4 @@ Material:
     - _ReflectColor: {r: 0.2205882, g: 0.2205882, b: 0.2205882, a: 0.5019608}
     - _SpecColor: {r: 0.09803922, g: 0.09803922, b: 0.09803922, a: 1}
     - _SpecularColor: {r: 0.3455882, g: 0.3455882, b: 0.3455882, a: 1}
+  m_BuildTextureStacks: []

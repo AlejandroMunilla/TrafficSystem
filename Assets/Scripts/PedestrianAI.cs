@@ -23,7 +23,7 @@ public class PedestrianAI : MonoBehaviour
 
     public State state;
 
-    // Start is called before the first frame update
+
     void Awake()
     {
         state = State.Move;
